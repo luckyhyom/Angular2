@@ -1,0 +1,7 @@
+<div class="title">
+    Section
+    <app-time-display [inputData]="present"></app-time-display>
+
+    <!-- buttons에서 정의한 이벤트를 부모인 section에서 사용. -->
+    <app-buttons (clickEvent)="startTime($event)"></app-buttons>
+</div>
