@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SectionComponent } from './section/section.component';
 import { TimeDisplayComponent } from './section/time-display/time-display.component';
 import { ButtonsComponent } from './section/buttons/buttons.component';
+import { TestComComponent } from './test-com/test-com.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ButtonsComponent } from './section/buttons/buttons.component';
     FooterComponent,
     SectionComponent,
     TimeDisplayComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    TestComComponent
   ],
   imports: [
     BrowserModule,
